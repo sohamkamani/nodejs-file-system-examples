@@ -11,7 +11,7 @@ fs.readFile('words.txt', (err, data) => {
 
 	// Split the words based on spaces and newlines and print the length
 	const nWords = data.toString().split(/[\s\n]+/).length
-	console.log(nWords)
+	console.log('total words:', nWords)
 
 	// print the total time taken and total program memory used
 	console.log('total time:', (new Date()) - startTime)

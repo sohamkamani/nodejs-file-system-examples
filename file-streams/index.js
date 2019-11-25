@@ -26,7 +26,7 @@ rStream.on('end', () => {
 
 	// we add one to the total, because we shouldn't subtract 1 from the last
 	// chunk of data in the `data` handler, for which we're compensating here
-	console.log(total + 1)
+	console.log('total words:', total + 1)
 
 
 	// Print the total time taken, as well as the total used program memory
